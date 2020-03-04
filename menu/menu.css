@@ -1,0 +1,38 @@
+nav{
+    background-color: chocolate;
+    color: cornflowerblue; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition: left .5s ease-in-out;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+nav a {
+    color: cornsilk;
+    font-size: 1.2em;
+    padding: 1em 2em;
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid cornflowerblue;
+    
+}
+nav a.actief{
+    padding: 1em 1.3em;
+    border-left: .7em solid cornflowerblue;
+}
+#menu-schuiver:checked ~ nav {
+    left: 90vw
+}
+#menu-schuiven{
+    display: none;
+}
+label.haal-menu{
+    padding: 1rem 2rem;
+}

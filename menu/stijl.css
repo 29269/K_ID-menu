@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* scrollbalk */
+    overflow-x: hidden;
+    width: 100vw;
+}
+.conteainer img {
+    max-width: 100vw;
+}
+.conteainer p, .conteainer h1{
+    
+}

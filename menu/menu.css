@@ -28,11 +28,15 @@ nav a.actief{
     border-left: .7em solid cornflowerblue;
 }
 #menu-schuiver:checked ~ nav {
-    left: 90vw
+    left: -100vw;
 }
-#menu-schuiven{
+#menu-schuiver{
     display: none;
 }
 label.haal-menu{
-    padding: 1rem 2rem;
+    font-size: 2em;
+    padding: .8rem 2rem;
+    display: block;
+    border-bottom: 2px solid cornflowerblue;
+    text-align: left;
 }
